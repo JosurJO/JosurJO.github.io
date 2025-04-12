@@ -1,0 +1,17 @@
+html {
+      font-size: 15px;
+    }
+    body { background-color: rgb(247, 244, 244);
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    display: grid; }
+    
+    header {
+    background-color: rgb(247, 244, 244);
+    color: white;
+    padding: 1px 1.5px;
+    text-align: center;
+    }
+h1 {text-align: center;}
+h2 {text-align: center;}
+h3 {text-align: center;}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Josur website">
+      <link rel="icon" href="img/josur.jpeg" type="image/x-icon">
+      <title>جسور للغة الإشارة</title>
+      <link rel="stylesheet" href="css/contact.css" type="text/css"> 
+</head>
+
+<body>
+  <nav>
+    <ul class="nav-left">
+        <li><a href="contact_en.html">Eng</a></li>
+    </ul>
+    
+    <div class="nav-center">
+        <input type="text" placeholder="...ابحث">
+        <button>ابحث</button>
+    </div>
+    
+    <ul class="nav-right">
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="contact.html">تواصل معنا</a></li>
+    </ul>
+</nav>
+
+<div class="right-section">
+    <div>
+        <a href="index.html">
+            <img src="img/josur_ex.jpeg" alt="شعار جسور" width="90" height="110">
+        </a>
+    </div>
+    
+    <div class="right-links">
+        <a href="support.html">دعم منظمات الصم بصفة متطوع</a>
+        <span class="seperator d-none d-lg-block">|</span>
+        <a href="prayer.html">ترجمة خطبة صلاة الجمعة بلغة الإشارة</a>
+        <span class="seperator d-none d-lg-block">|</span>
+        <a href="comm.html"> الهيكل الإداري واللجان </a>
+    </div>
+</div>
+<section class="contact-section">
+  <div class="contact-header">
+      <h1>تواصل معنا</h1>
+      <p>يسعدنا استقبال استفساراتكم واقتراحاتكم على مدار الساعة</p>
+  </div>
+  
+  <div class="contact-grid">
+      <div class="contact-info">
+          <h2>معلومات التواصل</h2>
+          <p> الهاتف: <a href="tel:(+962) 79-571-5714">(+962) 79-571-5714</a></p>
+          <p> البريد الإلكتروني: <a href="mailto:josur.jo14@gmail.com">josur.jo14@gmail.com</a></p>
+      </div>
+      
+      <div class="contact-info">
+          <h2>الموقع</h2>
+          <p><i class="fa-map-marker-alt"></i> الجمعية الأردنية الأولى لمترجمي لغة الإشارة</p>
+          <p>
+              <i class="fa-directions"></i> 
+              1. الاتجاه نحو جنوب شرق مباشرة من شارع معاذ بن جبل إلى ش. الكباريتي<br>
+              2. الدخول في ش. الكباريتي<br>
+              3. الاتجاه يمينًا إلى ش. الملك طلال<br>
+              4. الاتجاه يسارًا إلى ش. الأمير الحسن (إشارات لـ جنوب عمان/وسط المدينه)<br>
+              5. الاتجاه نحو اليسار للاستمرار في ش. الأمير الحسن<br>
+              6. الاتجاه نحو الطريق المنحدرة إلى الحدود العراقية/الحدود السعودية/الازرق<br>
+              7. الاتجاه نحو اليمين<br>
+              8. عند الدوّار، عليك الاتجاه نحو المخرج الثالث<br>
+          </p>
+          <a href="https://maps.app.goo.gl/rfz7Faww9eCZy5Wy8https://maps.app.goo.gl/rfz7Faww9eCZy5Wy8" target="_blank">
+              <i class="fas fa-map"></i> عرض على الخريطة
+          </a>
+      </div>
+  </div>
+  
+  <div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d211.79781722829907!2d36.00400776801853!3d31.858607400000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151b5b004ecb41b3%3A0xa134362076302459!2z2KfZhNis2YXYudmK2Kkg2KfZhNij2LHYr9mG2YrYqSDYp9mE2KPZiNmE2Ykg2YTZhdiq2LHYrNmF2Yog2YTYutipINin2YTYpdi02KfYsdip!5e0!3m2!1sen!2sjo!4v1744413283850!5m2!1sen!2sjo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  
+    <br>
+  <div class="contact-form">
+      <h2 style="text-align: center; margin-bottom: 20px; color: var(--primary-color);">أرسل لنا رسالة</h2>
+      <form action="https://formspree.io/f/movervao" method="POST" novalidate>
+          <div class="form-group">
+              <label for="name" class="form-label">الاسم الكامل</label>
+              <input type="text" id="name" name= "name" class="form-input" required>
+          </div>
+          
+          <div class="form-group">
+              <label for="email" class="form-label">البريد الإلكتروني</label>
+              <input type="email" id="email" name="email" class="form-input" required>
+              <small class="error-msg" style="color: rgb(228, 60, 60); display: none;">يرجى إدخال بريد إلكتروني صالح</small>
+          </div>
+          
+          <div class="form-group">
+              <label for="message" class="form-label">الرسالة</label>
+              <textarea id="message" name="message" class="form-input" required></textarea>
+          </div>
+          
+          <div class="form-buttons">
+              <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+              <button type="reset" class="btn btn-secondary" onclick="resetForm()">إعادة تعيين</button>
+          </div>
+      </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <h1>تابعنا</h1>
+  <div class="footer-container">
+      <a href="https://www.facebook.com/groups/1403848706599846" aria-label="Facebook">
+          <img src="img/Facebook_Logo_Primary.png" class="social-icon" alt="فيسبوك">
+      </a>
+      <a href="https://www.youtube.com/@%D9%84%D8%BA%D8%A9%D8%A7%D9%84%D8%A5%D8%B4%D8%A7%D8%B1%D8%A9%D8%A7%D9%84%D8%A7%D8%B1%D8%AF%D9%86%D9%8A%D8%A9%D8%A7%D8%B3%D8%A7%D9%85%D8%A9%D8%B7%D9%87%D8%B1%D8%A7%D9%88%D9%8A" aria-label="YouTube">
+          <img src="img/yt_icon_rgb.png" class="social-icon" alt="يوتيوب">
+      </a>
+  </div>
+  <p class="copyright">جميع الحقوق محفوظة &copy; جسور <span id="year"></span></p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  
+  const form = document.querySelector('form');
+  const emailInput = document.getElementById('email');
+  const errorMsg = document.querySelector('.error-msg');
+  
+  emailInput.addEventListener('input', function() {
+      if (emailInput.validity.valid) {
+          errorMsg.style.display = 'none';
+      } else {
+          errorMsg.style.display = 'block';
+      }
+  });
+  
+  form.addEventListener('submit', function(e) {
+      if (!emailInput.validity.valid) {
+          e.preventDefault();
+          errorMsg.style.display = 'block';
+      }
+  });
+  
+  function resetForm() {
+      document.getElementById('message').value = '';
+      errorMsg.style.display = 'none';
+  }
+</script>
+<script src="search_ar.js"></script>
+</body>
+</html>

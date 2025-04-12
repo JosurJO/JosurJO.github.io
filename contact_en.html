@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/josur.jpeg" type="image/x-icon">
+    <title>Josur for Sign Language</title>
+    <link rel="stylesheet" href="css/contact.css" type="text/css">
+</head>
+<body>
+    <nav>
+        <ul class="nav-left">
+            <li><a href="contact.html">عربي </a></li>
+        </ul>
+        
+        <div class="nav-center">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+        
+        <ul class="nav-right">
+            <li><a href="about_en.html">About Us</a></li>
+            <li><a href="contact_en.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+  <div class="right-section">
+      <div>
+          <a href="josur_en.html">
+              <img src="img/josur_ex.jpeg" alt="Josur Logo" width="90" height="110">
+          </a>
+      </div>
+      
+      <div class="right-links">
+          <a href="support_en.html">Volunteer to Support Deaf Organizations</a>
+          <span class="seperator d-none d-lg-block">|</span>
+          <a href="prayer_en.html">Interpretation of Friday Sermon in Sign Language</a>
+          <span class="seperator d-none d-lg-block">|</span>
+          <a href="comm_en.html">Administrative Structure and Committees</a>
+      </div>
+  </div>
+  
+  <section class="contact-section">
+      <div class="contact-header">
+          <h1>Contact Us</h1>
+          <p>We are happy to receive your inquiries and suggestions around the clock</p>
+      </div>
+      
+      <div class="contact-grid">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p> Phone: <a href="tel:(+962) 79-571-5714">(+962) 79-571-5714</a></p>
+            <p> Email: <a href="mailto:josur.jo14@gmail.com">josur.jo14@gmail.com</a></p>
+        </div>
+        
+        <div class="contact-info">
+          <h2>Location</h2>
+          <p><i class="fa-map-marker-alt"></i> The First Jordanian Association for Sign Language Interpreters</p>
+          <p>
+            <i class="fa-directions"></i> 
+            1. Head southeast directly from Muadh Bin Jabal St. to Al-Kabariti St.<br>
+            2. Enter Al-Kabariti St.<br>
+            3. Turn right onto King Talal St.<br>
+            4. Turn left onto Prince Hassan St. (Signs for South Amman/Downtown)<br>
+            5. Continue on Prince Hassan St.<br>
+            6. Head toward the ramp for the Iraqi/Saudi border/Al-Azraq<br>
+            7. Turn right<br>
+            8. At the roundabout, take the third exit<br>
+        </p>
+        <a href="https://maps.app.goo.gl/rfz7Faww9eCZy5Wy8" target="_blank">
+            <i class="fas fa-map"></i> View on Map
+        </a>
+    </div>
+  </div>
+
+  <div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d211.79781722829907!2d36.00400776801853!3d31.858607400000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151b5b004ecb41b3%3A0xa134362076302459!2z2KfZhNis2YXYudmK2Kkg2KfZhNij2LHYr9mG2YrYqSDYp9mE2KPZiNmE2Ykg2YTZhdiq2LHYrNmF2Yog2YTYutipINin2YTYpdi02KfYsdip!5e0!3m2!1sen!2sjo!4v1744413283850!5m2!1sen!2sjo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <br>
+  <div class="contact-form">
+    <h2 style="text-align: center; margin-bottom: 20px; color: var(--primary-color);">Send Us a Message</h2>
+    <form action="https://formspree.io/f/movervao" method="POST" novalidate>
+        <div class="form-group">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" id="name" name="name" class="form-input" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" name="email" class="form-input" required>
+            <small class="error-msg" style="color: rgb(228, 60, 60); display: none;">Please enter a valid email address</small>
+        </div>
+        
+        <div class="form-group">
+            <label for="message" class="form-label">Message</label>
+            <textarea id="message" name="message" class="form-input" required></textarea>
+        </div>
+        
+        <div class="form-buttons">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <button type="reset" class="btn btn-secondary" onclick="resetForm()">Reset</button>
+        </div>
+    </form>
+</div>
+  <script src="search.js"></script>
+</body>
+</html>
+      
